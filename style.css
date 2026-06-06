@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    font-family: "Roboto";
 }
 :root{
     --accent:#AB0101;
     --primary-text:#303030;
     --brand-gold:#BE9B5B;
     --hero-header: 100px;
+}
+.menu-bars{
+    width: 21.88px;
+    height: 19.14px;
+    display: none;
 }
 .text{
     color: var(--accent);
@@ -20,11 +26,13 @@
     display: flex;
     gap: 10px;
     background-color: white;
+    align-items: center;
     justify-content: space-between;
 }
 .brand{
     display: flex;
     align-items: end;
+
 }
 .kitchen-text{
     font-weight: 700;
@@ -37,9 +45,9 @@
     font-size: 24px;
     color: var(--primary-text);
     display: flex;    
-    gap: 0.5rem;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
 }
 .instagram{
     display: flex;
@@ -65,4 +73,101 @@
 .insta-text{
     text-decoration: none;
     color: black;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/foodbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.569);
+    display: flex;
+    flex-direction: column;
+}
+.hero-text{
+    width: 100%;
+}
+.yummy-text{
+    font-weight: 900;
+    font-size: 100px;
+    font-family: "Roboto";
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5rem;
+}
+.delivered-text{
+    font-weight: 900;
+    font-size: 90px;
+    font-family: "Roboto";
+    line-height: 100%;
+    text-align: center;
+    color: var(--accent);
+}
+.text{
+    margin-top: 2rem;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    color: var(--brand-gold);
+    text-align: center;
+}
+.services-text{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.order-btn{
+    width: 200px;
+    min-height: 70px;
+    border-radius: 100px;
+    border: 1px solid #AB0101;
+    padding: 2px 4px;
+    color: white;
+    box-shadow: 0 2 4 0 #00000040;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+
+
+@media only screen and (max-width:380px){
+    .nav-link{
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--primary-text);
+        display: flex;    
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        border: 1px solid black;
+    }
+    .navbar{
+        padding: 21px 10px;
+    }
+    .instagram{
+        display: none;
+    }
+    .menu-bars{
+        width: 21.88px;
+        height: 19.14px;
+        display: block;
+}
 }
