@@ -5,6 +5,9 @@
     border: none;
     font-family: "Roboto";
 }
+body{
+    background-color: #EDF3F9;
+}
 :root{
     --accent:#AB0101;
     --primary-text:#303030;
@@ -142,7 +145,118 @@
     justify-content: center;
     gap: 1rem;
 }
+.trust-hundrends{
+    display: flex;
+    margin-left: 1rem;
 
+}
+.trust-banner{
+    width: 658px;
+    height: 238px;
+    border-radius: 100px;
+    border: 2px solid #BE9B5B;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+.trust{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+    color: #BFBFBF;
+}
+.events{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 100%;
+    margin-left: 1rem;
+    color: #FFFFFF;
+}
+.lagos{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 100%;
+    color: #BFBFBF;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.seller{
+    width: 100%; 
+    min-height: 20rem;
+    padding: 0 1.5rem;
+}
+.selling-line{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.best-seller{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 100%;
+    color: #000000;
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.awo-special{
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 4px dashed #303030;
+    padding: 15px;
+    display: block;
+}
+.red-line{
+    width: 180px;
+    height: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #AB0101;
+}
+.three-images{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+.image-1{
+    width: 370px;
+    height: 310px;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4 20 0 #00000040;
+}
+.order-btn-2{
+    width: 200px;
+    min-height: 70px;
+    border-radius: 100px;
+    border: 1px solid #AB0101;
+    padding: 2px 4px;
+    color: white;
+    box-shadow: 0 2 4 0 #00000040;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: black;
+}
 
 
 
